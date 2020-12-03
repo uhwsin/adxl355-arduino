@@ -1,3 +1,7 @@
+#
+There are some critical errors in the arduino code.
+Fixed them and now work good.
+2020-12-03
 # ADXL355 on Arduino
 
 Code to read ADXL355 PMDZ accelerometer on Arduino using SPI protocol.
