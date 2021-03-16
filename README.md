@@ -12,7 +12,7 @@ Code to read ADXL355 PMDZ accelerometer on Arduino using SPI protocol.
 
 * Arduino 
   * Tested on MKR1000
-  * Tested on UNO, but it is not recommend. It will damaged to your ADXL355. ADXL355 has 3.3V SPI, but UNO's is 5V.
+  * Tested on UNO, but it is not recommend. It will damaged to your ADXL355. ADXL355's GPIO is  3.3V , but UNO's is 5V. You can add a TTL-CMOS level convertor.
 * ADXL355 PMDZ
   * More info: [here](https://wiki.analog.com/resources/eval/user-guides/eval-adicup360/hardware/adxl355)
 
